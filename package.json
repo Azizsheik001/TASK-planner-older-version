@@ -1,0 +1,12 @@
+{
+  "name": "ags-task_planner-root",
+  "version": "1.0.0",
+  "scripts": {
+    "start:client": "cd client && npm start",
+    "start:server": "cd server && node fetch_users.js",
+    "install:all": "cd client && npm install && cd ../server && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
